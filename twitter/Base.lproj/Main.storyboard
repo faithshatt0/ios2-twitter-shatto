@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="ofn-8s-lig">
             <objects>
-                <viewController id="k3c-R9-eN7" sceneMemberID="viewController">
+                <viewController id="k3c-R9-eN7" customClass="LoginViewController" customModule="Twitter" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Eh1-CI-ckm">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -28,6 +28,9 @@
                                 <state key="normal" title="Login">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="onLoginButton:" destination="k3c-R9-eN7" eventType="touchUpInside" id="9nU-VW-Y1G"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -45,7 +48,7 @@
             </objects>
             <point key="canvasLocation" x="232.80000000000001" y="125.4872563718141"/>
         </scene>
-        <!--Root View Controller-->
+        <!--Home-->
         <scene sceneID="kFD-TM-YFe">
             <objects>
                 <tableViewController id="PxS-i8-gry" sceneMemberID="viewController">
@@ -68,7 +71,7 @@
                             <outlet property="delegate" destination="PxS-i8-gry" id="bQi-7x-Mb2"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="CQE-Sw-2VS"/>
+                    <navigationItem key="navigationItem" title="Home" id="CQE-Sw-2VS"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2gl-wT-BWf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
