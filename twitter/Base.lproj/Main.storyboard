@@ -71,7 +71,11 @@
                             <outlet property="delegate" destination="PxS-i8-gry" id="bQi-7x-Mb2"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Home" id="CQE-Sw-2VS"/>
+                    <navigationItem key="navigationItem" title="Home" id="CQE-Sw-2VS">
+                        <barButtonItem key="leftBarButtonItem" title="Logout" id="54J-wZ-ohj">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2gl-wT-BWf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -84,6 +88,10 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iKP-E8-8lH">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.26633464890000003" green="0.81882142449999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </textAttributes>
                     </navigationBar>
                     <connections>
                         <segue destination="PxS-i8-gry" kind="relationship" relationship="rootViewController" id="Bdk-hF-nGD"/>
