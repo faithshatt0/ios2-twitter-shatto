@@ -25,6 +25,13 @@ DEPENDENCIES:
   - AlamofireImage
   - BDBOAuth1Manager
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - Alamofire
+    - AlamofireImage
+    - BDBOAuth1Manager
+
 SPEC CHECKSUMS:
   AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
   Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
@@ -33,4 +40,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: e13b2a8b0a1b932e28dfe6a5b2954cbb1f509412
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.5.3
